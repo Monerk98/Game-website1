@@ -1,0 +1,67 @@
+.section__two
+{
+    position: relative;
+    padding-bottom: 232px;
+    background-image: radial-gradient(100.03% 54.57% at 35% 58.04%, rgba(255, 255, 255, 0.9) 0%, rgba(0, 0, 0, 0.8) -0.63%, #080A0B 130.74%), 
+     url(../images/bg-sectionTwo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9) ;
+}
+.section__head
+{
+    padding-top: 256px;
+}
+.section__head
+{
+font-family: $font-secondary;
+font-weight: $fw-bold;
+font-size: 24px;
+line-height: 1;
+letter-spacing: 2px;
+margin-bottom: 9px;
+}
+
+.section__title
+{
+font-family: $font-secondary;
+max-width: 410px;
+font-weight: $fw-bold;
+font-size: 80px;
+line-height: 1;
+letter-spacing: 3px;
+text-transform: uppercase;
+padding-bottom: 9px;
+color: #FFFFFF;
+border-bottom: 1px solid white;
+border-radius: 1px;
+margin-bottom: 60px;
+}
+.section__text
+{
+    font-family: $font-primary;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: justify;
+    max-width: 365px;
+    margin-bottom: 19px;
+    margin-left: 188px;
+}
+.text__span
+{font-family: $font-primary;
+    font-weight: $fw-bold;
+font-size: 18px;
+line-height: 1.2;
+text-align: justify;
+}
+.section__text2
+{
+    font-family: $font-primary;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: justify;
+    max-width: 365px;
+    margin-left: 188px;
+}

@@ -1,0 +1,203 @@
+.sands
+{
+    background-image: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%), 
+     url(../images/sands.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+     padding-top: 159px;
+     padding-bottom: 147px;
+     flex-wrap: wrap;
+}
+.quotes
+{
+    width: 438px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+.textbox
+{
+    font-family: $font-secondary;
+    font-weight: $fw-bold;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+.quotesTitle
+{
+    font-family: $font-secondary;
+    font-weight: $fw-bold;
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+}
+.quotesDesk
+{
+    font-family: $font-primary;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+.readMore
+{
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 34px;
+    font-family: $font-primary;
+    font-weight: $fw-bold;
+    font-size: 16px;
+    line-height: 1.2;
+    border: none;
+    cursor: pointer;
+}
+
+// ============================= \\
+// SECTION Cards
+
+.cardOne
+{
+    width: 454px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 14px 16px 21px 16px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: auto;
+}
+.cardOne:not(:last-child)
+{
+    margin-bottom: 30px;
+}
+.cardTwo
+{
+    width: 454px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 14px 16px 21px 16px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 147px;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.preImg
+{
+    position: absolute;
+    top: 15px;
+    left: 23px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: $secondadry-color;
+}
+.cardImg
+{
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    z-index: 20;
+    margin-right: 22px;
+    margin-bottom: 23px;
+}
+.cardWrapper
+{
+    margin-top: 10px;
+    width: 320px;
+    height: 58px;
+}
+.cardHead
+{
+    font-family: $font-secondary;
+    font-weight: $fw-bold;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: $secondadry-color;
+}
+.cardDeskription
+{
+    font-family: $font-primary;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.2;
+    color: $primary-color;
+    opacity: 0.5;
+    margin-bottom: 5px;
+}
+.cardBird
+{
+    fill: #6c6e70;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    width: 18px;
+    height: 15px;
+    cursor: pointer;
+}
+.cardOne:hover .cardBird
+{
+    fill: rgb(78, 78, 223);
+    transition: all 0.4s;
+}
+.cardOne:hover .preImg 
+{
+    background-color: rgb(78, 78, 223);
+    transition: all 0.4s;
+}
+.cardOne:hover .cardHead
+{
+    color: rgb(78, 78, 223);
+    transition: all 0.4s;
+} 
+
+.cardTwo:hover .cardBird
+{
+    fill: rgb(78, 78, 223);
+    transition: all 0.4s;
+}
+.cardTwo:hover .preImg 
+
+{
+    background-color: rgb(78, 78, 223);
+    transition: all 0.4s;
+}
+.cardTwo:hover .cardHead
+{
+    color: rgb(78, 78, 223);
+    transition: all 0.4s;
+}
+
+
+
+.cardQuote
+{
+    font-family: $primary-color;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.38;
+    color: $primary-color;
+    margin-bottom: 9px;
+}
+.cardDate
+{
+    font-family: $primary-color;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.35;
+    color: $primary-color;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}

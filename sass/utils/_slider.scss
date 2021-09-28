@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+    .slider__container
+    {
+    position: absolute;
+    // left: 52%;
+    top: 200px;
+    left: 850px;
+
+    }
+  .swiper {
+
+    // width: 240px;
+    // height: 300px;
+    width: 407px;
+    height: 512px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006)
+
+  }
+
+  .swiper-slide:nth-child(1n) {
+    // background-color: rgb(206, 17, 17);
+    background-image: url(../images/battle-royale.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    // background-color: rgb(0, 140, 255);
+    background-image: url(../images/manBeard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    // background-color: rgb(10, 184, 111);
+    background-image: url(../images/guys.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .swiper-slide:nth-child(4n) {
+    // background-color: rgb(211, 122, 7);
+    background-image: url(../images/skulls.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .swiper-slide:nth-child(5n) {
+    // background-color: rgb(118, 163, 12);
+    background-image: url(../images/statue.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .swiper-slide:nth-child(6n) {
+    // background-color: rgb(180, 10, 47);
+    background-image: url(../images/guns.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .swiper-slide:nth-child(7n) {
+    // background-color: rgb(35, 99, 19);
+    background-image: url(../images/world.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .swiper-slide:nth-child(8n) {
+    // background-color: rgb(0, 68, 255);
+    background-image: url(../images/girlWeapon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+//   .swiper-slide:nth-child(9n) {
+//     background-color: rgb(218, 12, 218);
+//   }
+
+//   .swiper-slide:nth-child(10n) {
+//     background-color: rgb(54, 94, 77);
+//   }

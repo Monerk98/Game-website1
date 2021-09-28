@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Game-website_2</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+            integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/main.min.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header__container">
+                <nav class="container__nav">
+                    <a href="#" class="logo">
+                        <img
+                            class="logo__pic"
+                            src="./images/svg/logo.svg"
+                            alt="logo"
+                        />
+                    </a>
+                    <ul class="menu list">
+                        <li class="menu__title">
+                            <a href="#main" class="menu__link link"> MAIN </a>
+                        </li>
+                        <li class="menu__title">
+                            <a href="#about" class="menu__link link"> about </a>
+                        </li>
+                        <li class="menu__title">
+                            <a href="#features" class="menu__link link">
+                                game features
+                            </a>
+                        </li>
+                        <li class="menu__title">
+                            <a href="#system" class="menu__link link">
+                                System requirements
+                            </a>
+                        </li>
+                        <li class="menu__title">
+                            <a href="#quotes" class="menu__link link"> quotes </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="last-ul">
+                    <select class="lang" name="language" id="language">
+                        <option  selected>ENG</option>
+                        <option value="1">FRE</option>
+                        <option value="2">UKR</option>
+                        <option value="3">DEU</option>
+                    </select>
+                </div>
+                <ul class="shops list">
+                    <li class="shops__link">
+                        <a href="https://www.youtube.com/watch?v=Mxtjnn8ojGs&ab_channel=NVIDIAGeForce" class="goFirst" target="_blank">
+                        <svg class="shops__svg ">
+                            <use href="./images/sprite.svg#icon-xbox"></use>
+                        </svg>
+                    </a>
+                    </li>
+                    <li class="shops__link">
+                        <a href="https://store.steampowered.com/app/619080/agecheck" class="go" target="_blank">
+                        <svg class="shops__svg">
+                            <use href="./images/sprite.svg#icon-steam"></use>
+                        </svg>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="main" id="main">
+                <div class="main__container">
+                    <h1 class="main__title">SURVIVE AT ALL COSTS</h1>
+                    <p class="main__text">
+                        Experience new social battle royale game
+                    </p>
+                    <div class="btn-cover">
+                        <button type="button" class="btn">
+                            <span class="btn__buy">Buy Now on Steam</span>
+                            <span class="btn__money">$14.99</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="section__two" id="about">
+                <div class="swiper mySwiper slider__container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <div class="swiper-slide"></div>
+                      <!-- <div class="swiper-slide">Slide 9</div> -->
+                    </div>
+                  </div>
+                <div class="section__container ">
+                <h3 class="section__head">What is SOS?</h3>
+                <p class="section__title">social battle royale game</p>
+                <p class="section__text">Each round,<span class="text__span">you</span> and <span class="text__span">15</span> other contestants compete to
+                    escape a deadly island filled with monsters. The trick is: <span class="text__span">three</span> people can survive. Will you run
+                    solo or form friendships with others to escape? </p>
+                    <p class="section__text2">Making the right decisions could be the
+                    difference between life and death.</p>
+                </div>
+            </section>
+            <section class="section__three" id="features">
+                <div class="section__container">
+                    <h3 class="section__headThree">What’s so special?</h3>
+                    <p class="features">features</p>
+                    <p class="section__titleThree">SURVIVE AT ALL COSTS</p>
+                    <p class="textThree">You have 30 minutes to find a relic, signal for extraction, and grab
+                        one of three spots on the rescue chopper.</p>
+                    <p class="textAfter">CREATE ALLIES AND ENEMIES</p>
+                    <p class="textAfterTwo">IMPRESS THE AUDIENCE</p>
+                </div>
+            </section>
+            <section class="section__four" id="system">
+                <div class="section__container">
+                    <h3 class="section__headFour">Can My Computer Run this game?</h3>
+                    <p class="system">system requirements</p>
+                    <img src="./images/table.png" alt="table" class="tableImg">
+                    <table>
+                        <tbody>
+                        <tr class="tr">
+                        <td>
+                            <p class="textTable">OS:</p>
+                            <p class="textAfterTable">Windows 7 64-bit only
+                                (No OSX support at this time)
+                            </p>
+                        </td>
+                        <td>
+                            <p class="textTablePR">pROCESSOR:</p>
+                            <p class="textAfterTablePR">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ
+                            </p>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <p class="textTable">mEMORY:</p>
+                            <p class="textAfterTable">8 GB RAM</p>
+                        </td>
+                        <td>  <p class="textTable">storage:</p>
+                            <p class="textAfterTable">8 GB available space</p>
+                        </td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        <p class="textTableLast">GRAPHICS:</p>
+                        <p class="textAfterTableLast">NVIDIA GeForce GTX 660 2GB or <br>
+                            AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+                            </p>
+                </div>
+            </section>
+            <section class="sands" id="quotes">
+                <div class="section__container">
+                    <div class="quotes">
+                        <h3 class="textBox">What people think?</h3>
+                        <p class="quotesTitle">Press quotes</p>
+                        <p class="quotesDesk">Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.</p>
+                        <button class="readMore">Read more testimonials</button>
+                    </div>
+                    <div class="cardOne">
+                        <span class="preImg"></span>
+                        <img class="cardImg" src="./images/gay.png" alt="gay">
+                        <div class="cardWrapper">
+                        <h3 class="cardHead">Evan Lahti</h3>
+                        <p class="cardDeskription">PC Gamer</p>
+                    </div>
+                    <svg class="cardBird">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                    <div class="cardWrapperTwo">
+                        <p class="cardQuote">“One of my gaming highlights of the year.”</p>
+                        <p class="cardDate">October 18, 2018</p>
+                    </div>
+                    </div>
+                    <div class="cardTwo">
+                        <span class="preImg"></span>
+                        <img class="cardImg" src="./images/girl.png" alt="gay">
+                        <div class="cardWrapper">
+                        <h3 class="cardHead">Jada Griffin </h3>
+                        <p class="cardDeskription">Nerdreactor</p>
+                    </div>
+                    <svg class="cardBird">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                    <div class="cardWrapperTwo">
+                        <p class="cardQuote">“The next big thing in the world of streaming and survival games.”
+                        </p>
+                        <p class="cardDate">December 21, 2018</p>
+                    </div>
+                    </div>
+                    <div class="cardOne">
+                        <span class="preImg"></span>
+                        <img class="cardImg" src="./images/man.png" alt="gay">
+                        <div class="cardWrapper">
+                        <h3 class="cardHead">Jada Griffin </h3>
+                        <p class="cardDeskription">Nerdreactor</p>
+                    </div>
+                    <svg class="cardBird">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                    <div class="cardWrapperTwo">
+                        <p class="cardQuote">“The next big thing in the world of streaming and survival games.”
+                        </p>
+                        <p class="cardDate">December 21, 2018</p>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skull">
+                <div class="section__container">
+                  <div class="skullWrapper">
+                    <h3 class="skullHead">Want to stay in touch?</h3>
+                    <p class="skullTitle">newsletter SUBSCRIBE </p>
+                    <p class="skullText">In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.</p>
+                    <input class="skullEmail" type="text" placeholder="Your email address">
+                    <button class="skullSubs">Subscribe now</button>
+                </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="again"></div>
+        </footer>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
