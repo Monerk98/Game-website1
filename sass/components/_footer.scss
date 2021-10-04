@@ -1,0 +1,110 @@
+.under__footer
+{
+    background-color: #080A0B;
+    padding-bottom: 50px;
+}
+.footerImgWrap
+{
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 31px;
+}
+.logoFooter
+{
+    width: 90px;
+    height: 90px;
+    margin-right: 138px;
+}
+.footer__nav
+{
+    display: flex;
+    align-items: center;
+    border-bottom: 0.873968px solid rgba(255,255,255, 0.3);
+    margin-bottom: 22px;
+}
+.footer__Mainlist
+{
+    display: flex;
+    align-items: center;
+}
+.footer__list:not(:last-child)
+{
+    margin-right: 38px;
+}
+.footer__link 
+{
+    display: block;
+    padding-top: 81px;
+    padding-bottom: 41px;
+    font-family: $font-primary;
+    font-weight: $fw-bold;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $primary-color;
+}
+.footer__link:hover
+{
+    color: rgb(78, 78, 223);
+    transition: all 0.4s;
+}
+.footer__pics
+{
+    margin-left: 87px;
+}
+.iconsFooter
+{
+    // padding-top: 81px;
+    width: 15px;
+    height: 19px;
+    fill: $primary-color;
+}
+.footer__pics
+{
+    display: flex;
+}
+.svgFooterLink
+{
+    display: block;
+    padding-top: 81px;
+    padding-bottom: 45px;
+}
+.svgFooterLink:not(:last-child)
+{
+    margin-right: 59px;
+}
+.iconsFooter:hover
+{
+    fill: red;
+    transition: all 0.4s;
+}
+.private
+{
+    display: flex;
+    justify-content: space-between;
+}
+.private__text
+{
+    font-family: $font-primary;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.33;
+    color: $primary-color;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.policy
+{
+    font-family: $font-primary;
+    font-weight: $fw-bold;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $primary-color;
+    cursor: pointer;
+}
